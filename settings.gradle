@@ -1,0 +1,2 @@
+include ':app', ':validator-android-library'
+rootProject.name='validator-android'
