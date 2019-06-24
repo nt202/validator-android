@@ -1,10 +1,11 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import static java8.util.Objects.requireNonNull;
+import java8.util.function.Function;
 
 import java.util.ArrayList;
 import java.util.List;
-import java8.util.function.Function;
+
+import static java8.util.Objects.requireNonNull;
 
 /**
  * @author erosb

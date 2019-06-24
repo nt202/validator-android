@@ -1,8 +1,9 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
+
+import java8.util.Optional;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java8.util.Optional;
 
 /**
  * Common superclass for {@link IPV4Validator} and {@link IPV6Validator}.

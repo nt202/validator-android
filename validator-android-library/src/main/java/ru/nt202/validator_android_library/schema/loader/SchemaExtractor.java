@@ -1,35 +1,17 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import java8.util.Optional;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.schema.*;
+
+import java.util.*;
 
 import static java.lang.String.format;
 import static java.util.Arrays.asList;
-import static java.util.Collections.emptyList;
-import static java.util.Collections.singleton;
-import static java.util.Collections.singletonList;
+import static java.util.Collections.*;
 import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_4;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_7;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-
-import java8.util.Optional;
-import java.util.Set;
-
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.everit.json.schema.ArraySchema;
-import ru.nt202.validator.everit.json.schema.BooleanSchema;
-import ru.nt202.validator.everit.json.schema.CombinedSchema;
-import ru.nt202.validator.everit.json.schema.ConditionalSchema;
-import ru.nt202.validator.everit.json.schema.ConstSchema;
-import ru.nt202.validator.everit.json.schema.EnumSchema;
-import ru.nt202.validator.everit.json.schema.NotSchema;
-import ru.nt202.validator.everit.json.schema.NullSchema;
-import ru.nt202.validator.everit.json.schema.NumberSchema;
-import ru.nt202.validator.everit.json.schema.ObjectSchema;
-import ru.nt202.validator.everit.json.schema.Schema;
-import ru.nt202.validator.everit.json.schema.SchemaException;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_4;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_7;
 
 class ExtractionResult {
 

@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema.combatibility;
+package ru.nt202.validator_android_library.schema.combatibility;
 
 import java8.util.Objects;
 

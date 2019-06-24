@@ -1,6 +1,7 @@
-package ru.nt202.validator.everit.json.schema.regexp;
+package ru.nt202.validator_android_library.schema.regexp;
 
 import java8.util.Optional;
+
 import java.util.regex.Pattern;
 
 class JavaUtilRegexp extends AbstractRegexp {

@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
 public class ReadWriteValidators {
     static ReadWriteValidator createForContext(ReadWriteContext context, ValidationFailureReporter failureReporter) {

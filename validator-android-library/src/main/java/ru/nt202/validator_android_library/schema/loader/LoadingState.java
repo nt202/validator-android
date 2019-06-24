@@ -1,24 +1,18 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import ru.nt202.validator_android_library.schema.ReferenceSchema;
+import ru.nt202.validator_android_library.schema.SchemaException;
+import ru.nt202.validator_android_library.schema.loader.internal.ReferenceResolver;
+import ru.nt202.validator_android_library.json2.JSONPointer;
+
+import java.net.URI;
+import java.util.*;
 
 import static java.lang.String.format;
 import static java.util.Collections.unmodifiableList;
 import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_6;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_7;
-
-import java.net.URI;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import ru.nt202.validator.everit.json.schema.ReferenceSchema;
-import ru.nt202.validator.everit.json.schema.SchemaException;
-import ru.nt202.validator.everit.json.schema.loader.internal.ReferenceResolver;
-import ru.nt202.validator.json2.JSONPointer;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_6;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_7;
 
 /**
  * @author erosb

@@ -1,11 +1,10 @@
-package ru.nt202.validator.everit.json.schema.internal;
-
-import static java.lang.String.format;
-
-import java8.util.Optional;
+package ru.nt202.validator_android_library.schema.internal;
 
 import com.damnhandy.uri.template.MalformedUriTemplateException;
 import com.damnhandy.uri.template.UriTemplate;
+import java8.util.Optional;
+
+import static java.lang.String.format;
 
 public class URITemplateFormatValidator extends AFormatValidator {
 

@@ -1,14 +1,14 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static java.lang.String.format;
-import static java8.util.Objects.requireNonNull;
+import ru.nt202.validator_android_library.schema.regexp.Regexp;
+import ru.nt202.validator_android_library.json2.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import ru.nt202.validator.everit.json.schema.regexp.Regexp;
-import ru.nt202.validator.json2.JSONObject;
+import static java.lang.String.format;
+import static java8.util.Objects.requireNonNull;
 
 class ObjectSchemaValidatingVisitor extends Visitor {
 

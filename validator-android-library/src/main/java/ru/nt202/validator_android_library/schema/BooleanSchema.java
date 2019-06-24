@@ -1,6 +1,6 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
 
 /**
  * Boolean schema validator.

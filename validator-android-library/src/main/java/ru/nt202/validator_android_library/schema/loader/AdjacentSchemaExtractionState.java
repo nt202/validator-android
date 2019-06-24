@@ -1,10 +1,10 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import ru.nt202.validator_android_library.schema.Schema;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
-import ru.nt202.validator.everit.json.schema.Schema;
 
 class AdjacentSchemaExtractionState {
 

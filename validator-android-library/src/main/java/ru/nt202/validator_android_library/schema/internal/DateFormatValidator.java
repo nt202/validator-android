@@ -1,6 +1,7 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
 
 import org.threeten.bp.format.DateTimeFormatter;
+
 import java.util.Collections;
 
 /**

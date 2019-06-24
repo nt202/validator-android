@@ -1,16 +1,17 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static java.lang.String.format;
-import static java8.util.Objects.requireNonNull;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
 import java8.util.Optional;
 import java8.util.function.IntFunction;
 import java8.util.stream.IntStream;
 import java8.util.stream.IntStreams;
-import ru.nt202.validator.json2.JSONArray;
+import ru.nt202.validator_android_library.json2.JSONArray;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+import static java.lang.String.format;
+import static java8.util.Objects.requireNonNull;
 
 class ArraySchemaValidatingVisitor extends Visitor {
 

@@ -1,19 +1,19 @@
-package ru.nt202.validator.everit.json.schema;
-
-import static java8.util.stream.Collectors.toList;
-
-import java.util.Collections;
-import java.util.ArrayList;
+package ru.nt202.validator_android_library.schema;
 
 import com.annimon.stream.Stream;
 import java8.util.Objects;
-import java.util.List;
-import java.util.Set;
 import java8.util.stream.Collectors;
 import java8.util.stream.StreamSupport;
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
-import ru.nt202.validator.json2.JSONArray;
-import ru.nt202.validator.json2.JSONObject;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
+import ru.nt202.validator_android_library.json2.JSONArray;
+import ru.nt202.validator_android_library.json2.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+
+import static java8.util.stream.Collectors.toList;
 
 /**
  * Enum schema validator.

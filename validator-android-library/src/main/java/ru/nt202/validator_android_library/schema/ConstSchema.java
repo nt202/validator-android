@@ -1,8 +1,8 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static ru.nt202.validator.everit.json.schema.EnumSchema.toJavaValue;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
 
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
+import static ru.nt202.validator_android_library.schema.EnumSchema.toJavaValue;
 
 public class ConstSchema extends Schema {
 

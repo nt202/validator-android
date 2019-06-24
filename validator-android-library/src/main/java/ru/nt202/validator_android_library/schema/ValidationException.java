@@ -1,16 +1,16 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static java8.util.Objects.requireNonNull;
+import java8.util.Objects;
+import java8.util.stream.Collectors;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.json2.JSONArray;
+import ru.nt202.validator_android_library.json2.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java8.util.Objects;
-import java8.util.stream.Collectors;
 
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.json2.JSONArray;
-import ru.nt202.validator.json2.JSONObject;
+import static java8.util.Objects.requireNonNull;
 
 /**
  * Thrown by {@link Schema} subclasses on validation failure.

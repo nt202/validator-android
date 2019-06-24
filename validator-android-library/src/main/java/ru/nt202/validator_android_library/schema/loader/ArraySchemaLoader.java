@@ -1,9 +1,9 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import ru.nt202.validator_android_library.schema.ArraySchema;
 
 import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_4;
-
-import ru.nt202.validator.everit.json.schema.ArraySchema;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_4;
 
 /**
  * @author erosb

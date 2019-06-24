@@ -1,17 +1,17 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
 import java8.util.stream.StreamSupport;
+
+import java.util.Collection;
+import java.util.List;
 
 import static java.lang.String.format;
 import static java.util.Arrays.asList;
 import static java8.util.Objects.requireNonNull;
 import static java8.util.stream.Collectors.joining;
 
-import java.util.Collection;
-import java.util.List;
-
 /**
- * Thrown by {@link ru.nt202.validator.everit.json.schema.loader.SchemaLoader#load()} when it encounters
+ * Thrown by {@link ru.nt202.validator_android_library.schema.loader.SchemaLoader#load()} when it encounters
  * un-parseable schema JSON definition.
  *
  * @author erosb

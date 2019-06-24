@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema.loader.internal;
+package ru.nt202.validator_android_library.schema.loader.internal;
 
 import java.net.URI;
 import java.net.URISyntaxException;

@@ -1,9 +1,9 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
+
+import java8.util.Objects;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
 
 import java.io.StringWriter;
-import java8.util.Objects;
-
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
 
 /**
  * Superclass of all other schema validator classes of this package.

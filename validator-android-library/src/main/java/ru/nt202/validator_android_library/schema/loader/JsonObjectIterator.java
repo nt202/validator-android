@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
 /**
  * @author erosb

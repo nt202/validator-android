@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
 /**
  * A schema not specifying any restrictions, ie. accepting any values.

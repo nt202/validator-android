@@ -1,13 +1,13 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import static java.util.Collections.unmodifiableMap;
-import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_4;
+import ru.nt202.validator_android_library.schema.FormatValidator;
+import ru.nt202.validator_android_library.schema.StringSchema;
 
 import java.util.Map;
 
-import ru.nt202.validator.everit.json.schema.FormatValidator;
-import ru.nt202.validator.everit.json.schema.StringSchema;
+import static java.util.Collections.unmodifiableMap;
+import static java8.util.Objects.requireNonNull;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_4;
 
 /**
  * @author erosb

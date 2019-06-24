@@ -1,26 +1,18 @@
-package ru.nt202.validator.everit.json.schema;
-
-import static java8.util.Objects.requireNonNull;
-import static java8.util.stream.Collectors.toMap;
-
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+package ru.nt202.validator_android_library.schema;
 
 import com.annimon.stream.Stream;
 import java8.util.Objects;
-import java.util.Set;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
+import ru.nt202.validator_android_library.schema.regexp.JavaUtilRegexpFactory;
+import ru.nt202.validator_android_library.schema.regexp.Regexp;
+import ru.nt202.validator_android_library.schema.regexp.RegexpFactory;
+
+import java.util.*;
 import java.util.regex.Pattern;
 
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
-import ru.nt202.validator.everit.json.schema.regexp.JavaUtilRegexpFactory;
-import ru.nt202.validator.everit.json.schema.regexp.Regexp;
-import ru.nt202.validator.everit.json.schema.regexp.RegexpFactory;
+import static java8.util.Objects.requireNonNull;
+import static java8.util.stream.Collectors.toMap;
 
 /**
  * Object schema validator.

@@ -1,12 +1,16 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import static java.util.Arrays.asList;
-import static java.util.Collections.emptyList;
-import static java8.util.Objects.requireNonNull;
-import static java8.util.stream.Collectors.toList;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_4;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_6;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_7;
+import java8.util.Objects;
+import java8.util.Optional;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.schema.*;
+import ru.nt202.validator_android_library.schema.internal.AFormatValidator;
+import ru.nt202.validator_android_library.schema.loader.internal.DefaultSchemaClient;
+import ru.nt202.validator_android_library.schema.loader.internal.WrappingFormatValidator;
+import ru.nt202.validator_android_library.schema.regexp.JavaUtilRegexpFactory;
+import ru.nt202.validator_android_library.schema.regexp.RegexpFactory;
+import ru.nt202.validator_android_library.json2.JSONObject;
+import ru.nt202.validator_android_library.json2.JSONPointer;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -14,25 +18,12 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java8.util.Objects;
-import java8.util.Optional;
 
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.everit.json.schema.CombinedSchema;
-import ru.nt202.validator.everit.json.schema.EmptySchema;
-import ru.nt202.validator.everit.json.schema.FalseSchema;
-import ru.nt202.validator.everit.json.schema.FormatValidator;
-import ru.nt202.validator.everit.json.schema.ReferenceSchema;
-import ru.nt202.validator.everit.json.schema.Schema;
-import ru.nt202.validator.everit.json.schema.SchemaException;
-import ru.nt202.validator.everit.json.schema.TrueSchema;
-import ru.nt202.validator.everit.json.schema.internal.AFormatValidator;
-import ru.nt202.validator.everit.json.schema.loader.internal.DefaultSchemaClient;
-import ru.nt202.validator.everit.json.schema.loader.internal.WrappingFormatValidator;
-import ru.nt202.validator.everit.json.schema.regexp.JavaUtilRegexpFactory;
-import ru.nt202.validator.everit.json.schema.regexp.RegexpFactory;
-import ru.nt202.validator.json2.JSONObject;
-import ru.nt202.validator.json2.JSONPointer;
+import static java.util.Arrays.asList;
+import static java.util.Collections.emptyList;
+import static java8.util.Objects.requireNonNull;
+import static java8.util.stream.Collectors.toList;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.*;
 
 /**
  * Loads a JSON schema's JSON representation into schema validator instances.

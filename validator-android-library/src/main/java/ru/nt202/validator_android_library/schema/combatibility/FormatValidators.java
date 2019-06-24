@@ -1,7 +1,7 @@
-package ru.nt202.validator.everit.json.schema.combatibility;
+package ru.nt202.validator_android_library.schema.combatibility;
 
-import ru.nt202.validator.everit.json.schema.FormatValidator;
-import ru.nt202.validator.everit.json.schema.internal.*;
+import ru.nt202.validator_android_library.schema.FormatValidator;
+import ru.nt202.validator_android_library.schema.internal.*;
 
 import static java8.util.Objects.requireNonNull;
 

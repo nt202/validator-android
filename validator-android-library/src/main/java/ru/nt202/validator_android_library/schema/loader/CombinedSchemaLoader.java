@@ -1,19 +1,15 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import java8.util.function.Function;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.schema.CombinedSchema;
+import ru.nt202.validator_android_library.schema.Schema;
+
+import java.util.*;
 
 import static java8.util.Objects.requireNonNull;
-import java8.util.stream.StreamSupport;
 import static java8.util.stream.Collectors.toList;
 import static java8.util.stream.Collectors.toSet;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java8.util.function.Function;
-
-import ru.nt202.validator.everit.json.schema.CombinedSchema;
-import ru.nt202.validator.everit.json.schema.Schema;
 
 /**
  * @author erosb

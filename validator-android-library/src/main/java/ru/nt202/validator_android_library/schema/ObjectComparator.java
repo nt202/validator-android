@@ -1,10 +1,10 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
+
+import java8.util.Objects;
+import ru.nt202.validator_android_library.json2.JSONArray;
+import ru.nt202.validator_android_library.json2.JSONObject;
 
 import java.util.Arrays;
-import java8.util.Objects;
-
-import ru.nt202.validator.json2.JSONArray;
-import ru.nt202.validator.json2.JSONObject;
 
 /**
  * Deep-equals implementation on primitive wrappers, {@link JSONObject} and {@link JSONArray}.

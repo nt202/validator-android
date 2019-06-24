@@ -1,8 +1,9 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
+
+import java8.util.Optional;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java8.util.Optional;
 
 public class URIV4FormatValidator extends AFormatValidator {
 

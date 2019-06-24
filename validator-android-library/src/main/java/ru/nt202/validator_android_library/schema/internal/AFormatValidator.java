@@ -1,12 +1,12 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
 
-import ru.nt202.validator.everit.json.schema.FormatValidator;
+import ru.nt202.validator_android_library.schema.FormatValidator;
 
 public abstract class AFormatValidator implements FormatValidator {
     /**
      * Provides the name of this format.
      * <p>
-     * Unless specified otherwise the {@link ru.nt202.validator.everit.json.schema.loader.SchemaLoader} will use this
+     * Unless specified otherwise the {@link ru.nt202.validator_android_library.schema.loader.SchemaLoader} will use this
      * name to recognize string schemas using this format.
      * </p>
      * The default implementation of this method returns {@code "unnamed-format"}. It is strongly

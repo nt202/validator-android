@@ -1,8 +1,8 @@
-package ru.nt202.validator.everit.json.schema.regexp;
-
-import static java8.util.Objects.requireNonNull;
+package ru.nt202.validator_android_library.schema.regexp;
 
 import java8.util.Optional;
+
+import static java8.util.Objects.requireNonNull;
 
 public interface Regexp {
 

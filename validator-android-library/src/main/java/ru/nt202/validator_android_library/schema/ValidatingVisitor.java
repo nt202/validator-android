@@ -1,18 +1,18 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static java.lang.String.format;
-import static java.util.Arrays.asList;
-import static java.util.Collections.unmodifiableList;
-import static java8.util.stream.Collectors.joining;
-import static ru.nt202.validator.everit.json.schema.EnumSchema.toJavaValue;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.json2.JSONArray;
+import ru.nt202.validator_android_library.json2.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.json2.JSONArray;
-import ru.nt202.validator.json2.JSONObject;
+import static java.lang.String.format;
+import static java.util.Arrays.asList;
+import static java.util.Collections.unmodifiableList;
+import static java8.util.stream.Collectors.joining;
+import static ru.nt202.validator_android_library.schema.EnumSchema.toJavaValue;
 
 class ValidatingVisitor extends Visitor {
 

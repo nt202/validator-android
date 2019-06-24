@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
 
 import java.util.Arrays;

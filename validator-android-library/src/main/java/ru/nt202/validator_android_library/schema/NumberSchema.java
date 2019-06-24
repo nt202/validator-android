@@ -1,9 +1,8 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
 import java8.util.Objects;
-
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
-import ru.nt202.validator.json2.JSONException;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
+import ru.nt202.validator_android_library.json2.JSONException;
 
 /**
  * Number schema validator.

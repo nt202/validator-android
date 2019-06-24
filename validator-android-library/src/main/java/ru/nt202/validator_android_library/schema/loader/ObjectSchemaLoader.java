@@ -1,12 +1,12 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
 import com.annimon.stream.Stream;
-import ru.nt202.validator.everit.json.schema.ObjectSchema;
-import ru.nt202.validator.everit.json.schema.Schema;
-import ru.nt202.validator.everit.json.schema.regexp.Regexp;
+import ru.nt202.validator_android_library.schema.ObjectSchema;
+import ru.nt202.validator_android_library.schema.Schema;
+import ru.nt202.validator_android_library.schema.regexp.Regexp;
 
 import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.loader.SpecificationVersion.DRAFT_6;
+import static ru.nt202.validator_android_library.schema.loader.SpecificationVersion.DRAFT_6;
 
 /**
  * @author erosb

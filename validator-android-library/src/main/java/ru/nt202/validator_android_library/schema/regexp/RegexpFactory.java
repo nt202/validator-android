@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema.regexp;
+package ru.nt202.validator_android_library.schema.regexp;
 
 public interface RegexpFactory {
 

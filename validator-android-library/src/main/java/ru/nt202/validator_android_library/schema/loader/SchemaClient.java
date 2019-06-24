@@ -1,4 +1,4 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
 import java.io.InputStream;
 
@@ -23,7 +23,7 @@ public abstract class SchemaClient  {
      * @param url
      *         the URL of the remote resource
      * @return the input stream of the response
-     * @throws ru.nt202.validator.everit.json.schema.combatibility.UncheckedIOException
+     * @throws ru.nt202.validator_android_library.schema.combatibility.UncheckedIOException
      *         if an IO error occurs.
      */
     public abstract InputStream get(String url);

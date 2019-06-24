@@ -1,15 +1,14 @@
-package ru.nt202.validator.everit.json.schema;
-
-import static java8.util.Objects.requireNonNull;
-import static ru.nt202.validator.everit.json.schema.FormatValidator.NONE;
-import ru.nt202.validator.everit.json.schema.combatibility.FormatValidators;
+package ru.nt202.validator_android_library.schema;
 
 import java8.util.Objects;
+import ru.nt202.validator_android_library.schema.combatibility.FormatValidators;
+import ru.nt202.validator_android_library.schema.internal.AFormatValidator;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
+import ru.nt202.validator_android_library.schema.regexp.JavaUtilRegexpFactory;
+import ru.nt202.validator_android_library.schema.regexp.Regexp;
 
-import ru.nt202.validator.everit.json.schema.internal.AFormatValidator;
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
-import ru.nt202.validator.everit.json.schema.regexp.JavaUtilRegexpFactory;
-import ru.nt202.validator.everit.json.schema.regexp.Regexp;
+import static java8.util.Objects.requireNonNull;
+import static ru.nt202.validator_android_library.schema.FormatValidator.NONE;
 
 /**
  * {@code String} schema validator.

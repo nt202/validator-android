@@ -1,10 +1,9 @@
-package ru.nt202.validator.everit.json.schema.internal;
-
-import static java.lang.String.format;
+package ru.nt202.validator_android_library.schema.internal;
 
 import java8.util.Optional;
+import ru.nt202.validator_android_library.json2.JSONPointer;
 
-import ru.nt202.validator.json2.JSONPointer;
+import static java.lang.String.format;
 
 public class JsonPointerFormatValidator extends AFormatValidator {
 

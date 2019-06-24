@@ -1,18 +1,18 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import static java8.util.Objects.requireNonNull;
+import com.annimon.stream.Stream;
+import java8.util.stream.StreamSupport;
+import ru.nt202.validator_android_library.schema.ReferenceSchema;
+import ru.nt202.validator_android_library.schema.Schema;
+import ru.nt202.validator_android_library.schema.loader.internal.ReferenceResolver;
+import ru.nt202.validator_android_library.json2.JSONObject;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.annimon.stream.Stream;
-import java8.util.stream.StreamSupport;
-import ru.nt202.validator.everit.json.schema.ReferenceSchema;
-import ru.nt202.validator.everit.json.schema.Schema;
-import ru.nt202.validator.everit.json.schema.loader.internal.ReferenceResolver;
-import ru.nt202.validator.json2.JSONObject;
+import static java8.util.Objects.requireNonNull;
 
 /**
  * @author erosb

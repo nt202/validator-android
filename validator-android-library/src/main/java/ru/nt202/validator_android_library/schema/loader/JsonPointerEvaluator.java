@@ -1,25 +1,21 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
+
+import java8.util.function.Supplier;
+import ru.nt202.validator_android_library.schema.SchemaException;
+import ru.nt202.validator_android_library.schema.combatibility.UncheckedIOException;
+import ru.nt202.validator_android_library.json2.JSONException;
+import ru.nt202.validator_android_library.json2.JSONObject;
+import ru.nt202.validator_android_library.json2.JSONPointerException;
+import ru.nt202.validator_android_library.json2.JSONTokener;
+
+import java.io.*;
+import java.net.URLDecoder;
+import java.nio.charset.Charset;
+import java.util.LinkedList;
 
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java8.util.Objects.requireNonNull;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import ru.nt202.validator.everit.json.schema.combatibility.UncheckedIOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.nio.charset.Charset;
-import java.util.LinkedList;
-import java8.util.function.Supplier;
-
-import ru.nt202.validator.everit.json.schema.SchemaException;
-import ru.nt202.validator.json2.JSONException;
-import ru.nt202.validator.json2.JSONObject;
-import ru.nt202.validator.json2.JSONPointerException;
-import ru.nt202.validator.json2.JSONTokener;
 
 /**
  * @author erosb

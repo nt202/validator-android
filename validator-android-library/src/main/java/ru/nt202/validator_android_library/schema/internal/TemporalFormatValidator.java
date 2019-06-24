@@ -1,10 +1,10 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
 
+import java8.util.Optional;
 import org.threeten.bp.format.DateTimeFormatter;
 import org.threeten.bp.format.DateTimeFormatterBuilder;
 import org.threeten.bp.format.DateTimeParseException;
 import org.threeten.bp.temporal.ChronoField;
-import java8.util.Optional;
 
 import static java8.util.Objects.requireNonNull;
 

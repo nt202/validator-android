@@ -1,6 +1,6 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import ru.nt202.validator.everit.json.schema.NumberSchema;
+import ru.nt202.validator_android_library.schema.NumberSchema;
 
 class V4ExclusiveLimitHandler implements  ExclusiveLimitHandler {
 

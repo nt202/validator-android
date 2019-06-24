@@ -1,13 +1,12 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
+
+import java8.util.Objects;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
 
 import static java8.util.Objects.requireNonNull;
 
-import java8.util.Objects;
-
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
-
 /**
- * This class is used by {@link ru.nt202.validator.everit.json.schema.loader.SchemaLoader} to resolve JSON pointers
+ * This class is used by {@link ru.nt202.validator_android_library.schema.loader.SchemaLoader} to resolve JSON pointers
  * during the construction of the schema. This class has been made mutable to permit the loading of
  * recursive schemas.
  */
@@ -69,7 +68,7 @@ public class ReferenceSchema extends Schema {
     }
 
     /**
-     * Called by {@link ru.nt202.validator.everit.json.schema.loader.SchemaLoader#load()} to set the referred root
+     * Called by {@link ru.nt202.validator_android_library.schema.loader.SchemaLoader#load()} to set the referred root
      * schema after completing the loading process of the entire schema document.
      *
      * @param referredSchema

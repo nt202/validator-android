@@ -1,9 +1,8 @@
-package ru.nt202.validator.everit.json.schema.loader.internal;
-
-import ru.nt202.validator.everit.json.schema.FormatValidator;
+package ru.nt202.validator_android_library.schema.loader.internal;
 
 import java8.util.Optional;
-import ru.nt202.validator.everit.json.schema.internal.AFormatValidator;
+import ru.nt202.validator_android_library.schema.FormatValidator;
+import ru.nt202.validator_android_library.schema.internal.AFormatValidator;
 
 import static java8.util.Objects.requireNonNull;
 

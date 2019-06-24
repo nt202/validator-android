@@ -1,18 +1,18 @@
-package ru.nt202.validator.everit.json.schema.loader;
+package ru.nt202.validator_android_library.schema.loader;
 
-import static java.lang.String.format;
-import static java.util.Collections.emptyMap;
-import static java8.util.Objects.requireNonNull;
+import com.annimon.stream.Stream;
+import java8.util.Optional;
+import java8.util.function.Consumer;
+import java8.util.function.Function;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
-
-import com.annimon.stream.Stream;
-import java8.util.Optional;
 import java.util.Set;
-import java8.util.function.Consumer;
-import java8.util.function.Function;
+
+import static java.lang.String.format;
+import static java.util.Collections.emptyMap;
+import static java8.util.Objects.requireNonNull;
 
 class ProjectedJsonObject extends JsonObject {
 

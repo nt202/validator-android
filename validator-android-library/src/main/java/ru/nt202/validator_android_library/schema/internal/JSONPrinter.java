@@ -1,8 +1,8 @@
-package ru.nt202.validator.everit.json.schema.internal;
+package ru.nt202.validator_android_library.schema.internal;
 
 import com.annimon.stream.Stream;
-import ru.nt202.validator.everit.json.schema.Schema;
-import ru.nt202.validator.json2.JSONWriter;
+import ru.nt202.validator_android_library.schema.Schema;
+import ru.nt202.validator_android_library.json2.JSONWriter;
 
 import java.io.Writer;
 import java.util.Map;

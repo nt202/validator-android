@@ -1,8 +1,7 @@
-package ru.nt202.validator.everit.json.schema.internal;
-
-import org.apache.commons.validator.routines.DomainValidator;
+package ru.nt202.validator_android_library.schema.internal;
 
 import java8.util.Optional;
+import org.apache.commons.validator.routines.DomainValidator;
 
 /**
  * Implementation of the "hostname" format value.

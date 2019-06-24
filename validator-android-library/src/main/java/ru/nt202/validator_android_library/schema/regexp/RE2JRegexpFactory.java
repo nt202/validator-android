@@ -1,8 +1,7 @@
-package ru.nt202.validator.everit.json.schema.regexp;
-
-import java8.util.Optional;
+package ru.nt202.validator_android_library.schema.regexp;
 
 import com.google.re2j.Pattern;
+import java8.util.Optional;
 
 class RE2JRegexp extends AbstractRegexp {
 

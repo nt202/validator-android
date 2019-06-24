@@ -1,12 +1,12 @@
-package ru.nt202.validator.everit.json.schema.internal;
-
-import org.threeten.bp.format.DateTimeFormatter;
-import org.threeten.bp.format.DateTimeFormatterBuilder;
-import java.util.Arrays;
+package ru.nt202.validator_android_library.schema.internal;
 
 import java8.util.Optional;
+import org.threeten.bp.format.DateTimeFormatter;
+import org.threeten.bp.format.DateTimeFormatterBuilder;
 
-import static ru.nt202.validator.everit.json.schema.internal.TemporalFormatValidator.SECONDS_FRACTION_FORMATTER;
+import java.util.Arrays;
+
+import static ru.nt202.validator_android_library.schema.internal.TemporalFormatValidator.SECONDS_FRACTION_FORMATTER;
 
 /**
  * Implementation of the "date-time" format value.

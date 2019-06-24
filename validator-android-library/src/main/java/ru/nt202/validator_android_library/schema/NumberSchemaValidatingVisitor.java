@@ -1,6 +1,4 @@
-package ru.nt202.validator.everit.json.schema;
-
-import static java.lang.String.format;
+package ru.nt202.validator_android_library.schema;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -8,6 +6,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
+
+import static java.lang.String.format;
 
 class NumberSchemaValidatingVisitor extends Visitor {
 

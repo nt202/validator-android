@@ -1,14 +1,13 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
 
-import static java8.util.Objects.requireNonNull;
+import com.annimon.stream.Stream;
+import java8.util.Objects;
+import ru.nt202.validator_android_library.schema.internal.JSONPrinter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.annimon.stream.Stream;
-import java8.util.Objects;
-
-import ru.nt202.validator.everit.json.schema.internal.JSONPrinter;
+import static java8.util.Objects.requireNonNull;
 
 /**
  * Array schema validator.

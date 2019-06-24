@@ -1,7 +1,8 @@
-package ru.nt202.validator.everit.json.schema.loader.internal;
+package ru.nt202.validator_android_library.schema.loader.internal;
+
+import java8.util.function.Consumer;
 
 import java.net.URI;
-import java8.util.function.Consumer;
 
 /**
  * Event handler interface used by {@link TypeBasedMultiplexer} to notify client(s) (which is

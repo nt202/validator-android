@@ -1,10 +1,10 @@
-package ru.nt202.validator.everit.json.schema;
+package ru.nt202.validator_android_library.schema;
+
+import ru.nt202.validator_android_library.schema.regexp.Regexp;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import ru.nt202.validator.everit.json.schema.regexp.Regexp;
 
 abstract class Visitor {
 
